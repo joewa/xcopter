@@ -1,0 +1,4 @@
+Put all hardware specific software and executables for on board pc here.
+
+This is the software for phase 1.
+Use it on your groundstation and establish a (wireless) serial link to the MikroKopter FlightControl.
