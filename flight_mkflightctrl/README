@@ -1,3 +1,15 @@
-Put all hardware specific software and executables for on board micrcontroller here.
+Put all hardware specific software and executables for the MikroKopter FlightCtrl
+board here.
 
 Since there are still some parts of the MikroKopter in use, put them here too.
+
+Applying this patch implements a protocol to control the MikroKopter through the second serial port of the AVR.
+
+1. Checkout the MikroKopter FlightCtrl sources from the SVN repository as described in their wiki: http://www.mikrokopter.de/ucwiki/MikroKopterRepository
+
+2. Copy all the files to the *_patch directory.
+
+3. Now, patch the makefile: patch < makefile.patch
+
+4. Make it!
+
