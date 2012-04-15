@@ -1,2 +1,25 @@
+What is XCopter*?
+-----------------
+Its intended to become a system design environment for remote controlled aircrafts, starting with a QuadroCopter. 
+
+
+Software Modules
+----------------
+The software consists of three modules:
+
+1. Simulation model. Represents a physical simulation of the aircraft. It is implemented with OpenModelica. At least one version shall be capable for real time execution. The model communicates with the airborne software. For the time being, the simulation models are developed within the "OpenRobotica" repository and will be merged later.
+
+2. Airborne software. Can be run in simulation or at the aircrafts control computer. Respectiveley, it interfaces either the simulation model or the aircrafts microcontrollers.
+
+3. Remote control software. Communicates with the airborne software. Displays all aircraft relevant data and provides a man machine interface.
+
+
+Actual State of the Project / "Roadmap"
+---------------------------------------
+- The MikroKopter FlightCtrl software has been patched to provide a control interface through a serial port. See thee flight_mkflightctrl directory.
+- You can fly the copter using the fantastic SpaceNavigator using the code in the "flight_pc_and_groundstation_qt" directory.
+
+
+
 The Xcopter code is written by joewa (Joerg Wangemann) unless noted otherwise.
 
