@@ -1,0 +1,39 @@
+# BEGIN CPP
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Others
+*.d
+*.lst
+
+# END CPP
+
+
+# BEGIN MATLAB
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+# END MATLAB
+
+
+# BEGIN LINUX
+.*
+!.gitignore
+*~
+
+# KDE
+.directory
+
+# END LINUX
